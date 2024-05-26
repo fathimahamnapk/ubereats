@@ -1,0 +1,360 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.header{
+
+    height: 100vh;
+    width:100vw;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(images/imageburger.jpg);
+    background-size: cover;
+    background-position: center;
+}
+nav{
+    display: flex;
+   
+    padding: 20px 7%;
+    justify-content: space-between;
+    align-items: center;
+
+   
+
+}
+.barlogo{
+    float: left;
+    
+    width: 40px;
+    cursor :pointer;
+    
+}
+nav p{
+    
+    padding-top: 12px;
+    margin: 5px 30px;
+
+}
+.Login{
+    background-color:#fff ;
+    color:#000;
+    padding: 8px 20px;
+    border-radius: 20px;
+    font-size: 14px;
+
+    
+}
+.Signup{
+    background-color:black ;
+    color:#fff;
+    padding: 8px 20px;
+    border-radius: 20px;
+    font-size: 14px;
+
+}
+.rightnav{
+    float: right;
+}
+.container{
+    width: 100vw;
+    height: 104px;
+    margin-top: 185px;
+    padding: 0 7%;
+    
+    /*background-color: blanchedalmond;*/
+}
+.container h1{
+    font-size: 22px;
+    font-weight: 620;
+
+}
+/*.header h1{
+    font-size: 200px;
+    font-weight: 620;
+    color: black;
+    text-align: center;
+    padding-top: 160px ;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;;
+}*/
+.container2{
+    display: flex;
+    float: left;
+    width:100vw;
+    height: 71px;
+    grid-template-columns: 1fr 1fr 1fr;/*to align pictures horizontally(in a grid)*/
+    grid-gap: 30px;
+    
+}
+
+.order{
+   
+    width: 505px;
+    height:60px;
+    background-color: #fff;
+    
+}
+.locationlogo{
+    width: 30px;
+    height: 29px;
+    padding-left: 67px;
+    padding-top: 37px;
+}
+.order form{
+    width: 470px;
+    height: 53px;
+    
+    float: right;
+    padding-left: 34px;
+}
+.dropdown button{
+    height: 58px;
+    background-color: #fff;
+    color: #000;
+    padding: 10px 15px;
+    border: none;/*to remove border effect*/
+    cursor: pointer;/*cursor will be a pointer when we hover over the button*/
+}
+.dropdown a{
+    display: block;/*items will be showm as a block*/
+    color: black;
+    background-color: white;
+    text-decoration: none;/*underline for the text will bw gone*/
+    padding: 10px 15px;
+}
+.dropdown .content{
+    display: none;/*to hide the drop down list while not clicking*/
+    position: absolute;/*to get the style exactly to that content only*/
+    background-color: #fff;
+    min-width: 100px;
+
+}
+.dropdown:hover .content{/*to display the content when we hover on the button*/
+    display: block;
+}
+.buttonsearch{
+    height: 58px;
+    background-color:black;
+    color: #fff;
+    text-decoration: none;
+    padding: 20px 20px;
+    border-radius: 10px;
+
+}
+.header1-1{
+    width: 100vw;
+    height: 55px;
+}
+
+
+
+
+.container3{
+   
+    height: 460px;
+    width: 100vw;
+    
+   
+
+}
+.images a{
+    color: black;
+}
+
+
+
+
+.images{
+    position: absolute;
+    display:grid;
+    
+    grid-template-columns: 1fr 1fr 1fr;/*to align pictures horizontally(in a grid)*/
+    grid-gap: 30px;
+}
+.images div img{
+    width: 100%;
+    padding-top: 34px;
+
+
+    /*border-radius: 10px;//tomake border round shaped*/
+}
+.images div h3{
+    font-weight: 700px;
+    font-family: UberMove, sans-serif;
+}
+.heading h2{
+    padding-top: 45px;
+    font-weight: 700px;
+    font-family: UberMove, sans-serif;
+}
+
+/*.map{
+    width: 150px;
+    height: 45px;
+}*/
+.container4{
+    
+    
+    width: 100vw;
+    height: 464px;
+
+   
+    align-items: center;
+  
+}
+.container4-1{
+    display: flex;
+}
+.container4-1 .spacing{
+    width: 875px;
+
+}
+
+
+.container4 img{
+    width: 1138px;
+    height: 363px;
+}
+.a a{
+    color: #000;
+}
+
+.container5{
+    display: flex;
+    height: 430px;
+    width: 100vw;
+    text-decoration: none;
+    
+   
+    
+}
+
+
+
+.row{
+    line-height: 50px;
+}
+
+
+ul{
+    list-style: none;
+}
+
+.col{
+    width: 25%;
+    padding: 0 95px;
+    
+
+}
+.col a{
+    color: #000;
+}
+.container6{
+    display: flex;
+    height: 491px;
+    width: 100vw;
+    text-decoration: none;
+    
+
+    
+}
+.row1{
+    line-height: 50px;
+}
+ul{
+    list-style: none;
+}
+.col1{
+    width: 25%;
+    padding: 0 95px;
+
+    
+
+}
+.col1 a{
+    color:#000
+}
+.container7{
+    display: flex;
+    
+    width: 100vw;
+    height: 415px;
+}
+
+.logos{
+ 
+    width: 48%;
+}
+.logos h1{
+    margin-top: 62px;
+    padding-left: 95px;
+    font-family: system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.help{
+   
+    width: 52%;
+    display: flex;
+
+}
+.help ul{
+    margin-top: 47px;
+}
+.help a{
+    color: #000;
+    text-decoration: none;
+    padding-left: 98px;
+    line-height: 50px;
+}
+.logosection{
+    display: flex;
+}
+.logosection img{
+    
+
+    width: 184px;
+    height: 48px;
+    padding-left: 36px;
+    margin-top: 200px;
+}
+.footer{
+    width: 100vw;
+    height: 165px;
+}
+.policy{
+    display: flex;
+    height: 56px;
+}
+.policy img{
+
+    margin-left: 23px;
+    width: 23px;
+    height: 21px;
+    
+    
+}
+.imagediv{
+    width: 161px;
+}
+.space{
+    margin-left: 362px;
+    width:311px;
+}
+.policy a{
+    padding-left: 33px;
+    color: black;
+   
+}
+.warning {
+    display: flex;
+}
+.space2{
+
+    width:441px;
+}
+.warning a{
+    padding-left: 66px;
+    color: black;
+}
+
+
+
+
